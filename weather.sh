@@ -22,6 +22,7 @@ elif [ "$w_txt" == "Isolated Thundershovers" ]; then w_sym="☔";
 elif [ "$w_txt" == "Cloudy" ]; then w_sym="☁";
 elif [ "$w_txt" == "Mostly Cloudy" ]; then w_sym="☁";
 elif [ "$w_txt" == "Partly Cloudy" ]; then w_sym="☁";
+elif [ "$w_txt" == "Partly" ]; then w_sym="☁";
 elif [ "$w_txt" == "Breezy" ]; then w_sym="⚐";
 else w_sym=$w_txt; 
 fi
