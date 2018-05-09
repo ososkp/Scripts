@@ -18,6 +18,7 @@ w_tpc=${words[2]}
 if   [ "$w_txt" == "Sunny" ]; then w_sym="☼";
 elif [ "$w_txt" == "Mostly" ] && [ "$w_helper" == "Sunny" ]; then w_sym="☼";
 elif [ "$w_txt" == "Showers" ]; then w_sym="☂";
+elif [ "$w_txt" == "Rain" ]; then w_sym="☂";
 elif [ "$w_txt" == "Clear" ]; then w_sym="☾";
 elif [ "$w_txt" == "Thunderstorms" ]; then w_sym="⚡";
 elif [ "$w_txt" == "Scattered" ]; then w_sym="☔";
