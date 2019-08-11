@@ -1,6 +1,8 @@
 # Scripts
-MLB.tv
-	Working project in very early stages. No looking!
+renamer.py
+	Run script with path to folder  as argument, will rename all subfolders
+	to remove all underscores and replace with spaces - but multiple will
+	only be replaced with one space.
 
 weather.sh
 	Modification of r3donnx's script to run weather information as widget
